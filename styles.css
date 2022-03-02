@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display";
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background: url("images/pattern-background-desktop.svg") no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card
+{
+    width: 350px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgb(208, 196, 196);
+}
+.card img
+{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card .content
+{
+    padding: 0px 40px;
+    margin-top: 25px;
+    color: hsl(223, 47%, 23%);
+}
+
+.content .info
+{
+    text-align: center;
+}
+
+.content .info p
+{
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+}
+
+.content .plan
+{
+    margin-top: 35px;
+    background: hsl(220, 60%, 98%);
+    border-radius: 10px;
+    padding: 20px;
+}
+.content .plan img
+{
+    width: 16%;
+    float: left;
+}
+
+.content .plan p
+{
+    font-size: 12px;
+    display: inline-block;
+    margin: 0;
+    margin-left: 14px;
+}
+
+.content .plan span
+{
+    color: hsl(224, 23%, 55%);
+    font-size: 11px;
+}
+
+.content .plan h5
+{
+    margin: 0;
+    color: hsla(245, 75%, 52%, 0.734);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.content .order
+{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 11.5px;
+}
+
+.content .order p
+{
+    cursor: pointer;
+    padding: 15px;
+}
+
+.content .order #payment
+{
+    background: hsla(245, 75%, 52%, 0.796);
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+    cursor: pointer;
+    transition: .5s; 
+}
+
+.content .order #payment:hover
+{
+    box-shadow: 1px 1px 20px hsl(224, 23%, 55%);
+}
+
